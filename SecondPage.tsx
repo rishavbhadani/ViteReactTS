@@ -33,7 +33,6 @@ const SecondPage = () => {
         <DataGrid rows={jsonData} columns={columns}  checkboxSelection />
       </div>
       <div>
-        {/* Include the DepartmentListComponent here */}
         <DepartmentListComponent departments={departmentData} />
       </div>
     </div>
