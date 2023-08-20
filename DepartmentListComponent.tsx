@@ -35,7 +35,7 @@ const DepartmentListComponent: React.FC<{ departments: Department[] }> = ({ depa
           <List key={subDept} component="div" disablePadding>
             <ListItem button>
               <ListItemIcon>
-                {/* Add appropriate icon here */}
+                {/* You can add an icon here.. */}
               </ListItemIcon>
               <ListItemText primary={subDept} />
             </ListItem>
