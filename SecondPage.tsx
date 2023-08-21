@@ -2,6 +2,8 @@ import  { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import DepartmentListComponent from './DepartmentListComponent'; 
 import departmentData from './DepartmentData'; 
+import JsonData from './JsonData';
+import React from 'react';
 
 interface PostData {
   userId: number;
@@ -33,6 +35,7 @@ const SecondPage = () => {
         <DataGrid rows={jsonData} columns={columns}  checkboxSelection />
       </div>
       <div>
+        {/* Include the DepartmentListComponent here */}
         <DepartmentListComponent departments={departmentData} />
       </div>
     </div>
