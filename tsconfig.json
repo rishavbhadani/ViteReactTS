@@ -5,7 +5,7 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "moduleResolution": "node",  // Change this to "node"
+    "moduleResolution": "node",  
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
